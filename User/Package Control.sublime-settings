@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"0x0",
+		"BracketHighlighter",
+		"ChineseLocalizations",
+		"CppFastOlympicCoding",
+		"Default File Type",
+		"Monokai++",
+		"Package Control",
+		"SideBarEnhancements",
+		"Terminal",
+		"Transparency",
+	],
+}
