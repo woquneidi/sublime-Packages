@@ -25,7 +25,7 @@ def make_cpp_template(name, url, contestname, time_limit, memory_limit, group):
         "\n"
         "\n"
         "\n"
-        "\t\n"
+        "\n"
         "}}\n\n\n"
         "int main(){{\n"
         "\tstd::ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);\n\n"
@@ -77,13 +77,13 @@ def MakeHandlerClass(foc_settings):
                         if " - " in group:
                             parts = group.split(" - ", 1)
                             group_dir = slugify(parts[0].strip())
-                            contestname_dir = slugify(parts[1].strip())
+                            contestname_dir = parts[1].strip()
                         else:
                             group_dir = slugify(group)
                             contestname_dir = "problem"
                     else:
                         group_dir = slugify(group)
-                        contestname_dir = slugify(contestname) if contestname else "problem"
+                        contestname_dir = contestname if contestname else "problem"
                     name_file = slugify(name)
                     
                     special_base_dir = r"D:\wqnd\Desktop\ACM"
@@ -101,7 +101,7 @@ def MakeHandlerClass(foc_settings):
                         platform_name = group
                         contest_name = "problem"
                     group_dir = slugify(platform_name)
-                    contestname_dir = slugify(contest_name)
+                    contestname_dir = contest_name
                     name_file = slugify(name)
                     cpp_output_dir = os.path.join(special_base_dir, group_dir, contestname_dir)
                     filename_base = name_file

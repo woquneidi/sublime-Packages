@@ -37,5 +37,11 @@
     { "keys": ["ctrl+shift+x"], "command": "fast_olympic_coding_hook" },
 
     // { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    // Open a terminal tab at current file directory
+    {
+        "keys": ["ctrl+b"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
 ]
 
