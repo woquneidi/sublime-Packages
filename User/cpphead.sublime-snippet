@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+using namespace std;
+using i64 = long long;
+
+
+void solve(){
+	$0
+
+
+
+
+
+	
+}
+
+
+int main(){
+	std::ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+
+	int T = 1;
+	//cin >> T;$1
+	while(T--) solve();
+
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>c++_tem</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

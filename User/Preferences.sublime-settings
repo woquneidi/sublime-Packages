@@ -1,0 +1,23 @@
+{
+	
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Monokai++/themes/Monokai++.tmTheme",
+	"font_size": 17,
+	// "ignored_packages":
+	// [
+	// 	"RestructuredText",
+	// ],
+	"font_face": "Fira Code",
+	// "font_face": "Consolas",
+	// "font_options": ["font_feature_settings=liga off, calt off"],
+	// "font_options": ["disable_ligatures"],
+	"tab_size": 4,
+	"translate_tabs_to_spaces": true,
+	"expand_tabs_on_save": true,
+	"index_files": true,
+	"save_on_focus_lost": true,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}
