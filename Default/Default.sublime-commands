@@ -1,4 +1,8 @@
 [
+
+	{ "caption": "Rename File", "command": "rename_file" },
+
+
 	{ "caption": "Arithmetic", "command": "arithmetic" },
 
 	{ "caption": "Wrap at Ruler", "command": "wrap_lines" },
@@ -158,5 +162,5 @@
 	{ "caption": "Help: Indexing Status", "command": "show_progress_window" },
 	{ "caption": "Help: Check for Updates", "command": "update_check", "platform": "!Linux" },
 	{ "caption": "Help: Changelog", "command": "show_changelog" },
-	{ "caption": "Help: About", "command": "show_about_window" },
+	{ "caption": "Help: About", "command": "show_about_window" }
 ]

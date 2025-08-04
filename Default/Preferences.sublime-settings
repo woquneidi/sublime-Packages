@@ -13,6 +13,7 @@
 	"light_color_scheme": "Breakers.sublime-color-scheme",
 	"dark_color_scheme": "Mariana.sublime-color-scheme",
 
+
 	// Note that the font_face and font_size are overridden in the platform
 	// specific settings file, for example, "Preferences (Linux).sublime-settings".
 	// Because of this, setting them here will have no effect: you must set them
@@ -660,6 +661,7 @@
 	// Move the sidebar on the right side
 	"sidebar_on_right": false,
 
+
 	// Display the git status in the status bar, requires the show_git_status
 	// setting to be enabled
 	"show_git_status_in_status_bar": true,
@@ -755,6 +757,7 @@
 
 	// Whether to reload files when Sublime Text is not in focus.
 	"reload_file_in_background": false,
+
 
 	// When reopening Sublime Text close saved files that have been deleted from
 	// the filesystem (Unsaved files will not be closed). If this setting is
@@ -863,6 +866,7 @@
 	// still be opened as either text or an image vie the File menu
 	"image_file_patterns": ["*.jpeg", "*.jpg", "*.gif", "*.png", "*.ico", "*.bmp", "*.tga", "*.psd", "*.ppm", "*.pgm", "*.webp", "*.hdr"],
 
+
 	// File indexing parses all files in the sidebar, and builds an index of
 	// their symbols. This is required for Goto Definition to work.
 	"index_files": true,
@@ -889,6 +893,7 @@
 
 	// Preview file contents in Goto Anything
 	"goto_anything_file_preview": true,
+
 
 	// When Vintage, the vi emulation package, is enabled
 	// (see ignored_packages, below), this setting controls if files are opened

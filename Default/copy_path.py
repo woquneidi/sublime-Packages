@@ -14,3 +14,4 @@ class CopyPathCommand(sublime_plugin.WindowCommand):
         sheet = self.window.active_sheet()
 
         return sheet and sheet.file_name() is not None and len(sheet.file_name()) > 0
+
